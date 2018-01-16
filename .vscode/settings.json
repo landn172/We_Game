@@ -1,0 +1,6 @@
+{
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "prettier.eslintIntegration": false,
+  "tslint.autoFixOnSave": true
+}
