@@ -1,5 +1,6 @@
-import "./scripts/libs/symbol";
 import "./scripts/libs/weapp-adapter";
+// tslint:disable-next-line:ordered-imports
+import "./scripts/libs/symbol";
 import Main from "./scripts/main";
 import WorkerManage from "./scripts/WorkerManage";
 

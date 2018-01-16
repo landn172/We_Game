@@ -20,7 +20,7 @@ export default class Pacman extends Sprite {
   stage: Stage;
   nextDirection?: SpriteDirection;
   frames = 20;
-  speed = 1;
+  speed = 2;
 
   /**
    * 对象所在地图坐标
@@ -115,8 +115,8 @@ export default class Pacman extends Sprite {
 
   draw(ctx: wx.CanvasContext) {
     ctx.fillStyle = this.color;
-    ctx.moveTo(this.x, this.y);
     ctx.beginPath();
+    ctx.moveTo(this.x, this.y);
     const stage = this.stage;
     // 玩家正常状态
     if (stage.status !== SpriteStatus.TEMP) {
